@@ -25,6 +25,10 @@ map <leader>t :FuzzyFinderTextMate<CR>
 map <leader>bg :Bgrep 
 map <leader>gg :Grep -r 
 
+" previous buffer ^6 (but that's mapped for spaces 
+map <C-t> :e #<CR>  
+
 let g:fuzzy_ignore="vendor/**/*;log/*"
-let g:fuzzy_match_limit=50
+let g:fuzzy_matching_limit=50
+let g:fuzzy_roots = ['.']
 

@@ -32,3 +32,10 @@ exec "Snippet inject inject(".st."object".et.") { |".st."injection".et.", ".st."
 exec "Snippet select select { |".st."element".et."| ".st."element".et.".".st.et." }<CR>".st.et
 exec "Snippet fori for <{datum}> in <{data}><CR><{datum}><{}><CR>end"
 
+exec "Snippet desc describe \"<{description}>\" do<CR>it \"<{expectation}>\" do<CR><{}><CR>end<CR>end<CR><{}>"
+exec "Snippet it it \"<{expectation}>\" do<CR><{}><CR>end<CR><{}>"
+exec "Snippet b4 before(:each) do<CR><{}><CR>end<{}>"
+
+exec "Snippet bt belongs_to :<{}>"
+exec "Snippet hm has n, :<{}>"
+
